@@ -36,12 +36,14 @@ public class CategoryService
 
     public Category update(int categoryId, Category category)
     {
+        category.setCategoryId(categoryId);
         // update category and return the updated category
         return categoryRepository.save(category);
     }
 
     public void delete(int categoryId)
     {
+
         // delete category
         categoryRepository.deleteById(categoryId);
     }

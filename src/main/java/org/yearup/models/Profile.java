@@ -38,6 +38,8 @@ public class Profile
     {
     }
 
+    // Constructor
+
     public Profile(int userId, String firstName, String lastName, String phone, String email, String address, String city, String state, String zip)
     {
         this.userId = userId;
@@ -50,6 +52,8 @@ public class Profile
         this.state = state;
         this.zip = zip;
     }
+
+    //Setters and Getters
 
     public int getUserId()
     {

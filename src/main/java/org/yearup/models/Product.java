@@ -39,6 +39,9 @@ public class Product
     {
     }
 
+
+    // Constructor
+
     public Product(int productId, String name, double price, int categoryId, String description, String subCategory, int stock, boolean isFeatured, String imageUrl)
     {
         this.productId = productId;
@@ -51,6 +54,8 @@ public class Product
         this.isFeatured = isFeatured;
         this.imageUrl = imageUrl;
     }
+
+    // Setters and Getters
 
     public int getProductId()
     {

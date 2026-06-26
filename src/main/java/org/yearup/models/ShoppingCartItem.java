@@ -8,6 +8,8 @@ public class ShoppingCartItem
     private int quantity = 1;
     private double discountPercent = 0;
 
+
+    //Setters and Getters
     public Product getProduct()
     {
         return product;
